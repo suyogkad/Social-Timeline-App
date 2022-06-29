@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp">
+
+    <TextView
+        android:id="@+id/signup"
+        android:layout_width="360dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/poppins"
+        android:text="@string/create_accountt"
+        android:textColor="#000"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/signup_emailview"
+        android:layout_width="162dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="387dp"
+        android:text="@string/email_address"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/signup_fnameview"
+        android:layout_width="162dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="140dp"
+        android:text="@string/full_name"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/signup_unameview"
+        android:layout_width="162dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="262dp"
+        android:text="@string/usernamee"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/signup_passview"
+        android:layout_width="162dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="510dp"
+        android:text="@string/passworddd"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/signup_enterusername"
+        android:layout_width="347dp"
+        android:layout_height="63dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="285dp"
+        android:inputType="text"
+        tools:ignore="Autofill,LabelFor" />
+
+    <EditText
+        android:id="@+id/signup_enterfullname"
+        android:layout_width="347dp"
+        android:layout_height="63dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:inputType="text"
+        tools:ignore="Autofill,LabelFor" />
+
+    <EditText
+        android:id="@+id/signup_enteremail"
+        android:layout_width="347dp"
+        android:layout_height="63dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="410dp"
+        android:inputType="textEmailAddress"
+        tools:ignore="Autofill,LabelFor" />
+
+
+    <EditText
+        android:id="@+id/signup_enterpassword"
+        android:layout_width="347dp"
+        android:layout_height="63dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="530dp"
+        android:inputType="textPassword"
+        tools:ignore="Autofill,LabelFor" />
+
+    <Button
+        android:id="@+id/signup_registerbtn"
+        android:layout_width="360dp"
+        android:layout_height="72dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="625dp"
+        android:backgroundTint="#8d0dac"
+        android:text="@string/register"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/signin_unameview"
+        android:layout_width="247dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="720dp"
+        android:drawablePadding="3dp"
+        android:text="@string/back_to_login"
+        android:textColor="#8d0dac"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:drawableStartCompat="@drawable/back" />
+
+</RelativeLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TimelineActivity"
+    android:background="@drawable/cf">
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="247dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:drawablePadding="5dp"
+        android:text="@string/menuuu"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:drawableStartCompat="@drawable/ic_baseline_arrow_back_24" />
+
+    <RelativeLayout
+        android:id="@+id/general_timeline_top2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end">
+
+        <TextView
+            android:id="@+id/textVie"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="-300dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/nexa_bold"
+            android:paddingStart="20dp"
+            android:text="@string/general_timeline"
+            android:textColor="@color/teal_200"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:ignore="RtlSymmetry" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/general_timeline_mid2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/general_timeline_top2">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="5dp"
+            android:drawableStart="@drawable/ic_baseline_post_add_24"
+            android:drawablePadding="5dp"
+            android:fontFamily="@font/nexa_bold"
+            android:text="@string/my_postss"
+            android:textColor="#fff"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:ignore="UseCompatTextViewDrawableXml" />
+    </RelativeLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/general_timeline_posts2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="155dp" />
+
+</RelativeLayout>
